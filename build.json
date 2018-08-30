@@ -1,0 +1,11 @@
+{
+	"id": "show_inactive_users",
+	"version": "1.0.0",
+	"description": "Show inactive users",
+	"categories": [
+		"admin",
+		"user",
+		"design"
+	],
+	"compatible_from": "2018.4"
+}
