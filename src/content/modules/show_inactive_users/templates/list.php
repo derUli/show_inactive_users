@@ -60,13 +60,8 @@ foreach ($users as $user) {
 	<label> <input type="checkbox" name="confirm-delete" value="1" required><?php translate("ask_for_delete")?></label>
 </div>
 <p>
-	<button type="submit" class="btn btn-danger"><?php translate("delete_selected_users");?></button>
+	<button type="submit" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i>
+ <?php translate("delete_selected_users");?></button>
 </p>
 
-
-
-
-
-
-
-<?php echo ModuleHelper::endForm();?>
+</form>
