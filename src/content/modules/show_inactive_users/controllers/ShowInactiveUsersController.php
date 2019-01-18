@@ -3,7 +3,7 @@
 class ShowInactiveUsersController extends Controller
 {
 
-    public const MODULE_NAME = "show_inactive_users";
+    const MODULE_NAME = "show_inactive_users";
 
     public function settings()
     {
